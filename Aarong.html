@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.72.0">
+  <title>Aarong</title>
+
+  <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/carousel/">
+
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+
+    body {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      color: #5a5a5a;
+    }
+
+
+
+    .carousel {
+      margin-bottom: 4rem;
+    }
+
+
+    .carousel-caption {
+      bottom: 3rem;
+      z-index: 10;
+    }
+
+
+    .carousel-item {
+      height: 32rem;
+    }
+
+    .carousel-item>img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 32rem;
+    }
+
+
+
+    .marketing .col-lg-4 {
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .marketing h2 {
+      font-weight: 400;
+    }
+
+    .marketing .col-lg-4 p {
+      margin-right: .75rem;
+      margin-left: .75rem;
+    }
+
+
+
+    .featurette-divider {
+      margin: 5rem 0;
+
+    }
+
+
+    .featurette-heading {
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -.05rem;
+    }
+
+
+
+    @media (min-width: 40em) {
+
+
+      .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+      }
+
+      .featurette-heading {
+        font-size: 50px;
+      }
+    }
+
+    @media (min-width: 62em) {
+      .featurette-heading {
+        margin-top: 7rem;
+      }
+    }
+  </style>
+
+
+  <link href="carousel.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-danger font-weight-bold" href="#">Aarong</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="myCarousel" class="carousel slide bg-dark" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img" width="100%" height="100%" 
+            preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+            <image href="https://s3-ap-southeast-1.amazonaws.com/com.analyzen.website/website/assets/images/portfolio-banner/aarong-eid.jpg" width="100%" height="100%" />
+            </svg>
+
+          <div class="container">
+            <div class="carousel-caption text-left">
+              <h1>Aarong</h1>
+              <p class="font-weight-bold">Elevate your style with our clothing brand's meticulously crafted designs, blending contemporary trends with timeless elegance.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" 
+            preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+            <image href="https://qriusbd.com/media/images/DSC09617.width-1920.jpg" width="100%" height="100%"  />
+            </svg>
+
+          <div class="container">
+            <div class="carousel-caption">
+              <p class="font-weight-bold">Embrace comfort and fashion seamlessly as our clothing brand redefines casual sophistication through innovative fabrics and trend-setting cuts.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" 
+            preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+            <image href="https://qriusbd.com/media/images/DSC09418.width-1920.jpg" width="100%" height="100%" />
+          </svg>
+
+          <div class="container">
+            <div class="carousel-caption text-right">
+              <p class="font-weight-bold">From urban chic to laid-back luxury, our clothing brand curates a diverse collection that empowers individuals to express their unique personality with every outfit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+    <div class="container marketing">
+
+     
+      <div class="row">
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" 
+            aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+            <title>Placeholder</title>
+            <image href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT47DvCStiRDTMFdsvgTfVQFUqoCjIlofnfqzEsyoZvT2VhGF4AOrEQOFNMutCXl5lyeGk&usqp=CAU" width="100%" height="100%" />
+          </svg>
+
+          <h2>Product</h2>
+          <p>The products are planned after repeated marketing studies in an effort to offer high-quality 
+            products that Bangladeshis would want at reasonable price</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" 
+            aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+            <title>Placeholder</title>
+           <image href="data:image/jpeg;base64,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 " width="100%" height="100%" />
+          </svg>
+
+          <h2>Retail</h2>
+          <p>The products are placed in large quantities on store shelves to match demand. Clean sales floor 
+            layouts are created and quality service is provide to establish an excellent shopping experience</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" 
+            aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+            <title>Placeholder</title>
+            <image href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlhI8iF9uKoDB0kF97WQFIBTS41Dgfb_X9N7crPwaGOhIat-lNQN57sSimJL3fLulEGjA&usqp=CAU" width="100%" height="100%" />
+          </svg>
+
+
+          <h2>Customer's Experience</h2>
+          <p>The customers buy the products after verifying the quality and discover the high-quality nature after log usage</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+
+
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Aarong <span class="text-muted">Bangladesh</span>
+          </h2>
+          <p class="lead">Welcome to our world of fashion, where every stitch tells a story and each garment is a canvas for self-expression. Our clothing brand is a celebration of individuality and style, offering a curated collection that seamlessly merges the latest trends with enduring classics. Immerse yourself in the artistry of our designs, meticulously crafted to adorn you with confidence, comfort, and unparalleled elegance. Whether you're navigating the urban streets or attending a soirée, our brand is your trusted companion on the journey of sartorial self-discovery. Welcome to a realm where fashion is not just worn; it's lived.</p>
+        </div>
+        <div class="col-md-5">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500"  aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+            <title>Placeholder</title>
+            <image href="https://www.aarong.com/media/logo/stores/1/aarong-logo.jpg" width="100%" height="100%" />
+          </svg>
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Aarong Market</h2>
+          <p class="lead">Embark on a global fashion odyssey with our internationally acclaimed clothing brand, where borders dissolve, and style becomes a universal language. Rooted in cultural diversity, our brand seamlessly weaves together influences from around the world, creating a tapestry of sartorial excellence. From the bustling streets of Tokyo to the haute couture runways of Paris, our garments transcend boundaries, embodying a fusion of international trends and timeless elegance. Immerse yourself in the allure of a clothing brand that speaks to the cosmopolitan spirit, celebrating the beauty of diversity while offering a passport to unparalleled fashion sophistication on a global scale.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500"  aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+            <title>Placeholder</title>
+            <image href="https://www.aarong.com/media/wysiwyg/3_3.png" width="100%" height="100%" />
+          </svg>
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Aarong Collection</h2>
+          <p class="lead">As a trendsetting hub for style enthusiasts, we curate a diverse collection that caters to every wardrobe need. From everyday essentials to statement pieces, our clothing business is dedicated to providing high-quality, on-trend fashion that empowers you to express your unique personality. Step into a world where each garment is a reflection of our commitment to quality craftsmanship, ensuring you not only look good but feel great in every outfit.</p>
+        </div>
+        <div class="col-md-5">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500"  aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+            <title>Placeholder</title>
+            <image href="https://www.aarong.com/media/wysiwyg/wedding.jpg" width="100%" height="100%" />
+          </svg>
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-right"><a href="#"><Button class="btn btn-success">^</Button></a></p>
+      <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+  </main>
+
+
+
+</body>
+
+</html>
